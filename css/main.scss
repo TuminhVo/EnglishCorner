@@ -10,6 +10,16 @@ body {
     font-family: 'Poppins';
 }
 
+a {
+    color: #444444;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .bar {
     background: white;
     padding: 1em;
@@ -32,7 +42,7 @@ body {
         font-weight: bold;
         border-radius: 5em;
         font-size: 1em;
-        padding: .1em 1em;
+        padding: .5em 1em;
         text-decoration: none;
 
         &:hover {
@@ -72,6 +82,15 @@ section {
         font-size: 2.5em;
         line-height: 1.3em;
         margin-top: .2em;
+    }
+
+    .watch-video {
+        display: block;
+        margin-top: 1em;
+
+        img {
+            margin-right: .5em;
+        }
     }
 }
 
@@ -122,6 +141,11 @@ footer {
         text-decoration: none;
         padding: .5em 1em 0 1em;
         font-size: 1.6em;
+        white-space: nowrap;
+
+        &:hover {
+            box-shadow: 5px 10px 18px #43609C;
+        }
     }
 }
 

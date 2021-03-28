@@ -9,6 +9,16 @@ body {
   font-family: 'Poppins';
 }
 
+a {
+  color: #444444;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .bar {
   background: white;
   padding: 1em;
@@ -32,7 +42,7 @@ body {
   font-weight: bold;
   border-radius: 5em;
   font-size: 1em;
-  padding: .1em 1em;
+  padding: .5em 1em;
   text-decoration: none;
 }
 
@@ -76,6 +86,15 @@ section {
   font-size: 2.5em;
   line-height: 1.3em;
   margin-top: .2em;
+}
+
+.hero .watch-video {
+  display: block;
+  margin-top: 1em;
+}
+
+.hero .watch-video img {
+  margin-right: .5em;
 }
 
 .hero-img {
@@ -128,6 +147,12 @@ footer .button {
   text-decoration: none;
   padding: .5em 1em 0 1em;
   font-size: 1.6em;
+  white-space: nowrap;
+}
+
+footer .button:hover {
+  -webkit-box-shadow: 5px 10px 18px #43609C;
+          box-shadow: 5px 10px 18px #43609C;
 }
 
 @media only screen and (min-width: 768px) {
